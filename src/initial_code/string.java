@@ -10,8 +10,9 @@ public class string {
 	System.out.println(up);
 	String low=name.toLowerCase();
 	System.out.println(low);
-	String sentance="My  name  is  mahima";
-	String sen=sentance.trim();
+	String sentance="  My  name  is  mahima  ";
+	System.out.println(sentance);
+	String sen=sentance.trim(); //remove leading and trailing whitespaces from a string. 
 	System.out.println(sen);
     System.out.println(name.substring(1));
     System.out.println(name.substring(1,4));

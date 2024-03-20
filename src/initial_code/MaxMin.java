@@ -1,14 +1,9 @@
 package initial_code;
 
-import java.util.Arrays;
-
-public class MaxMinArray {
+public class MaxMin {
 
 	public static void main(String[] args) {
-		int[] a= {5,9,34,12,4};
-	/*	Arrays.sort(a);
-		System.out.println("The min value is:"+a[0]);
-		System.out.println("The max value is:"+a[a.length-1]); */
+		int a[]= {9,56,35,76,4};
 		int max=a[0], min=a[0];
 		for(int i=0;i<a.length;i++)
 		{
@@ -26,6 +21,6 @@ public class MaxMinArray {
 			}
 		}
 		System.out.println(min);
-		
-}
+	}
+
 }
